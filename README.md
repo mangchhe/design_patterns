@@ -5,10 +5,10 @@
 | 이름 | NAME | Java | Kotlin | 정리 |
 | :---: | :---: | :---: | :---: | :---: |
 | 추상 팩토리 | Abstract Factory | - | - | - |
-| 빌더 | Builder | [바로가기](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/creational_patterns/builder) | [바로가기](https://github.com/mangchhe/Design_patterns/tree/main/Kotlin/src/creational_patterns/builder) | [![바로가기](./images/clipboard.jpg)](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/creational_patterns/builder/summary.md) |
-| 팩토리메서드 | Factory Method | [바로가기](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/creational_patterns/factorymethod) | - | [![바로가기](./images/clipboard.jpg)](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/creational_patterns/factorymethod/summary.md) |
+| 빌더 | Builder | [바로가기][builder-java] | [바로가기][builder-kotlin] | [![바로가기](./images/clipboard.jpg)][builder-summary] |
+| 팩토리메서드 | Factory Method | [바로가기][factorymethod-java] | - | [![바로가기](./images/clipboard.jpg)][factorymethod-summary] |
 | 프로토타입 | Prototype | - | - | - |
-| 싱글턴 | Singleton | [바로가기](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/creational_patterns/singleton) | [바로가기](https://github.com/mangchhe/Design_patterns/tree/main/Kotlin/src/creational_patterns/singleton) | [![바로가기](./images/clipboard.jpg)](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/creational_patterns/singleton/summary.md) |
+| 싱글턴 | Singleton | [바로가기][singleton-java] | [바로가기][singleton-kotlin] | [![바로가기](./images/clipboard.jpg)][singleton-summary] |
 
 # 구조(Structural) 패턴
 
@@ -21,8 +21,8 @@
 | 컴퍼지트 | Composite | - | - | - |
 | 데코레이터 | Decorator | - | - | - |
 | 퍼사드 | Facade | - | - | - |
-| 플라이웨이트 | Flyweight | [바로가기](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/structural_patterns/flyweight) | - | [![바로가기](./images/clipboard.jpg)](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/structural_patterns/flyweight/summary.md) |
-| 프록시 | Proxy | [바로가기](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/structural_patterns/proxy) | [바로가기](https://github.com/mangchhe/Design_patterns/tree/main/Kotlin/src/structural_patterns/proxy) | [![바로가기](./images/clipboard.jpg)](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/structural_patterns/proxy/summary.md) |
+| 플라이웨이트 | Flyweight | [바로가기][flyweight-java] | - | [![바로가기](./images/clipboard.jpg)][flyweight-summary] |
+| 프록시 | Proxy | [바로가기][proxy-java] | [바로가기][proxy-kotlin] | [![바로가기](./images/clipboard.jpg)][proxy-summary] |
 
 # 행위(Behavioral) 패턴
 
@@ -37,6 +37,35 @@
 | 메멘토 | Memento | - | - | - |
 | 옵서버 | Observer | - | - | - |
 | 스테이트 | State | - | - | - |
-| 스트레티지 | Strategy | [바로가기](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/behavioral_patterns/strategy) | - | [![바로가기](./images/clipboard.jpg)](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/behavioral_patterns/strategy/summary.md) |
-| 템플릿 메서드 | Template Method | [바로가기](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/behavioral_patterns/templatemethod) | - | [![바로가기](./images/clipboard.jpg)](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/behavioral_patterns/templatemethod/summary.md) |
+| 스트레티지 | Strategy | [바로가기][strategy-java] | - | [![바로가기](./images/clipboard.jpg)][strategy-summary] |
+| 템플릿 메서드 | Template Method | [바로가기][templatemethod-java] | - | [![바로가기](./images/clipboard.jpg)][templatemethod-summary] |
 | 비지터 | Visitor | - | - | - |
+
+
+[builder-java]: https://github.com/mangchhe/Design_patterns/tree/main/Java/src/creational_patterns/builder
+[builder-kotlin]: https://github.com/mangchhe/Design_patterns/tree/main/Kotlin/src/creational_patterns/builder
+[builder-summary]: https://github.com/mangchhe/Design_patterns/tree/main/Java/src/creational_patterns/builder/summary.md
+
+[factorymethod-java]: https://github.com/mangchhe/Design_patterns/tree/main/Java/src/creational_patterns/factorymethod
+[factorymethod-summary]: https://github.com/mangchhe/Design_patterns/tree/main/Java/src/creational_patterns/factorymethod/summary.md
+
+[singleton-java]: https://github.com/mangchhe/Design_patterns/tree/main/Java/src/creational_patterns/singleton
+[singleton-kotlin]: https://github.com/mangchhe/Design_patterns/tree/main/Kotlin/src/creational_patterns/singleton
+[singleton-summary]: https://github.com/mangchhe/Design_patterns/tree/main/Java/src/creational_patterns/singleton/summary.md
+
+
+
+[flyweight-java]: https://github.com/mangchhe/Design_patterns/tree/main/Java/src/structural_patterns/flyweight
+[flyweight-summary]: https://github.com/mangchhe/Design_patterns/tree/main/Java/src/structural_patterns/flyweight/summary.md
+
+[proxy-java]: https://github.com/mangchhe/Design_patterns/tree/main/Java/src/structural_patterns/proxy
+[proxy-kotlin]: https://github.com/mangchhe/Design_patterns/tree/main/Kotlin/src/structural_patterns/proxy
+[proxy-summary]: https://github.com/mangchhe/Design_patterns/tree/main/Java/src/structural_patterns/proxy/summary.md
+
+
+
+[strategy-java]: https://github.com/mangchhe/Design_patterns/tree/main/Java/src/behavioral_patterns/strategy
+[strategy-summary]: https://github.com/mangchhe/Design_patterns/tree/main/Java/src/behavioral_patterns/strategy/summary.md
+
+[templatemethod-java]: https://github.com/mangchhe/Design_patterns/tree/main/Java/src/behavioral_patterns/templatemethod
+[templatemethod-summary]: https://github.com/mangchhe/Design_patterns/tree/main/Java/src/behavioral_patterns/templatemethod/summary.md
