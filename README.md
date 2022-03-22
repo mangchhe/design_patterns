@@ -21,7 +21,7 @@
 | 컴퍼지트 | Composite | - | - | - |
 | 데코레이터 | Decorator | - | - | - |
 | 퍼사드 | Facade | - | - | - |
-| 플라이웨이트 | Flyweight | - | - | - |
+| 플라이웨이트 | Flyweight | [바로가기](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/structural_patterns/flyweight) | - | [![바로가기](./images/clipboard.jpg)](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/structural_patterns/flyweight/summary.md) |
 | 프록시 | Proxy | [바로가기](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/structural_patterns/proxy) | [바로가기](https://github.com/mangchhe/Design_patterns/tree/main/Kotlin/src/structural_patterns/proxy) | [![바로가기](./images/clipboard.jpg)](https://github.com/mangchhe/Design_patterns/tree/main/Java/src/structural_patterns/proxy/summary.md) |
 
 # 행위(Behavioral) 패턴
